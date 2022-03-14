@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class reverse_of_array{
+public class rotate_array{
   public static void display(int[] a){
     StringBuilder sb = new StringBuilder();
 
@@ -11,18 +11,21 @@ public class reverse_of_array{
     System.out.println(sb);
   }
 
-  public static void reverse(int[] a){
+  public static void rotate(int[] a, int k){
     // write your code here
-    int low = 0 ;
-    int hi = a.length - 1;
-    while(lo <=hi){
+    int index  = a.length - k;
+     int size = a.length;
+     int temp;
+    for( int len = a.length; len>= index ; len --){
 
-      int temp = a[lo];
-      a[lo]=a[hi];
-      a[hi]=temp;
-      lo++;
-      hi--;
+       for(int start = size ;start>=0; start--){
+                       temp = a[start];
+                       System.out.print(temp);
+                       a[start]= a[start-1];
+       }
+               a[0]=temp;
     }
+
   }
 
 public static void main(String[] args) throws Exception {
@@ -33,8 +36,9 @@ public static void main(String[] args) throws Exception {
     for(int i = 0; i < n; i++){
        a[i] = Integer.parseInt(br.readLine());
     }
+    int k = Integer.parseInt(br.readLine());
 
-    reverse(a);
+    rotate(a, k);
     display(a);
  }
 
