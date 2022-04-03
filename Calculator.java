@@ -7,7 +7,7 @@
     private int z;
 
     public void get(int b, int b , int c){
-       x=a;
+       x = a;
        y = b;
 
     }
@@ -25,7 +25,7 @@
  class CalDemo{
 
    public static void main(String[] args){
-     
+
 
    }
  }
