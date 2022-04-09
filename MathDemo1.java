@@ -1,11 +1,11 @@
-public class SisStickGame {
+ public class MathDemo1 {
 
-public static void main(String args[]){
+	public static void main(String args[]){
 	
 	 double  num  = Math.random();
 	 System.out.println(num);
-	//  System.out.println(num*10);
-	//  System.out.println(num*100);
+
+	  System.out.println(num*100);
 	//  System.out.println(num*1000);
 	//  System.out.println(num*10000);
 	//  System.out.println((int)(num*10));//0-9
@@ -13,7 +13,6 @@ public static void main(String args[]){
 	//  System.out.println((int)(num*1000));//0-999
 	//  System.out.println((int)(num*10000));//0-9999
 	  
-	}//end mainn
-}
+	}//end main
 
 }//end class
