@@ -10,40 +10,39 @@ public class Main{
     }
     System.out.println(sb);
   }
+   public static void Ele_Reverse(int[] a , int st , int ed) {
+            int temp = a[st];
+                a[st]= a[ed];
+                a[ed] = temp;
 
-   public static void swap(int[]a ,int lo, int hi) {
-     int temp;
-     temp = a[lo];
-     a[lo]= a[hi];
-     a[hi]=temp;
-   }
-   public static void reverse(int[] a, int lo, int hi) {
      
-     // swap
-     while(lo<=hi){
-           
-           swap(a,lo,hi);
-    
-              lo++;
-              hi--;
+   }
+
+   public static void swap(int[] a, int st, int end) {
+
+     while(st<=end){
+       Ele_Reverse(a,st,end);
+      //  int temp = a[st];
+      //  a[st]= a[end];
+      //  a[end] = temp;
+       st++;
+       end--;
      }
      
-    
   }
+   
 
   public static void rotate(int[] a, int k){
     // write your code here
+     int part1=0;
+     int start_of_part2 = 0;
+      start_of_part2= a.length - k;
+     int end1 = 0;
+      end1= a.length - 1;
 
-    int n = a.length;
-     k = k % n;
-    if(k<0){
-      k+=n;
-
-    }
-    reverse ( a, 0, n-k-1);
-    reverse ( a, n-k, n-1);
-    reverse ( a, 0, n-1);
-
+      swap( a , start_of_part2 , end1 );
+      swap( a , part1 , start_of_part2-1);
+      swap( a, part1 , end1);
 
   }
 
