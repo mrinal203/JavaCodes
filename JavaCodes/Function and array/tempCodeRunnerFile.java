@@ -1,2 +1,1 @@
- int dig1 = num1%10;
-      //  int dig2 = num2%10;
+int arr[] = new int[n];
