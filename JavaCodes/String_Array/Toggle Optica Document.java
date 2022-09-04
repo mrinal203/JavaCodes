@@ -32,7 +32,7 @@ public class Main {
 					//AGAIN WE WILL USE THE FORMULA
 					char lc = (char)((ch -'A') + 'a');
 					sb.append(lc);
-
+2
 				}
 
 				
