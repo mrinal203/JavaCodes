@@ -1,6 +1,6 @@
 //import .util*;
 import java.util.*; 
-import java.io.*;
+
 public class Arr_of{
 
   public static void main(String[] args){
@@ -13,6 +13,7 @@ public class Arr_of{
 
     }
     printArr(arr ,0);
+    scn.close();
   }
 
   public static void printArr(int arr[] , int idxx){
