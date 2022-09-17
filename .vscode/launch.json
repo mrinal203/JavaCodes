@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch B",
+      "request": "launch",
+      "mainClass": "B",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch Bike",
       "request": "launch",
       "mainClass": "Bike",
