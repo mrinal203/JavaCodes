@@ -15,6 +15,7 @@ public class Main {
     public static int factorial(int n){
         
         if(n==0){
+            bygib ohjbu 
             return 1;
         } 
         int fact1= factorial(n-1);
