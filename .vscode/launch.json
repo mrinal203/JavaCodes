@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch patt21",
+      "request": "launch",
+      "mainClass": "patt21",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch Patt_17a",
       "request": "launch",
       "mainClass": "Patt_17a",
