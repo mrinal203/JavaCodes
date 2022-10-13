@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch FirstN_primeNum",
+      "request": "launch",
+      "mainClass": "Hw.FirstN_primeNum",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArmstrongNumberTill_N",
+      "request": "launch",
+      "mainClass": "Hw.ArmstrongNumberTill_N",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch patt21",
       "request": "launch",
       "mainClass": "patt21",
