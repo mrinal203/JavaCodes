@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Sorting",
+      "request": "launch",
+      "mainClass": "java_oops.COLLECTION.LIST.Sorting",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch Arrylist",
       "request": "launch",
       "mainClass": "java_oops.COLLECTION.LIST.Arrylist",
