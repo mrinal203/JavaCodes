@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Arrylist",
+      "request": "launch",
+      "mainClass": "java_oops.COLLECTION.LIST.Arrylist",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibanosis",
+      "request": "launch",
+      "mainClass": "Fibanosis",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch FirstN_primeNum",
       "request": "launch",
       "mainClass": "Hw.FirstN_primeNum",

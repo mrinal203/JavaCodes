@@ -28,7 +28,7 @@ class ArmstrongNumberTill_N{
         
     }while(x!=0);
     if(sum==t){
-        System.out.println("t");
+        System.out.println(t);
     }
 }
   public static void main(String[] args) {
