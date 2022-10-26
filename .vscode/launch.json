@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Dec_oct",
+      "request": "launch",
+      "mainClass": "JavaCodes.BasicJava.Class_work.Dec_oct",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
+      "name": "Launch Dec_to_bina",
+      "request": "launch",
+      "mainClass": "JavaCodes.BasicJava.Class_work.Dec_to_bina",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch Sorting",
       "request": "launch",
       "mainClass": "java_oops.COLLECTION.LIST.Sorting",
