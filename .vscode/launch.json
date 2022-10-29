@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Class_work_Q2",
+      "request": "launch",
+      "mainClass": "JavaCodes.BasicJava.Class_work.PATTERNS.Class_work_Q2",
+      "projectName": "JavaCodes_e41fccab"
+    },
+    {
+      "type": "java",
       "name": "Launch Dec_oct",
       "request": "launch",
       "mainClass": "JavaCodes.BasicJava.Class_work.Dec_oct",
