@@ -1,4 +1,4 @@
-package JavaCodes.BasicJava;
+package JavaCodes.BasicJava.Class_work.PATTERNS;
 
 public class Q10 {
     import java.util.Scanner;

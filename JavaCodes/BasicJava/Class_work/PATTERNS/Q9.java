@@ -1,4 +1,4 @@
-package JavaCodes.BasicJava;
+package JavaCodes.BasicJava.Class_work.PATTERNS;
 //9. Write a java program to print following pattern when user enter 5:
 //
 //       a
